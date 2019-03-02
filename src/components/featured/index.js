@@ -9,6 +9,7 @@ const Featured = () => {
       <div className="artist_name">
         <div className="wrapper">Fit Fam Meal Prep</div>
       </div>
+      <TimeUntil />
     </div>
   );
 };
