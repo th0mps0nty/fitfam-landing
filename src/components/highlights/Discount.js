@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
+import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
+import MyButton from "../utils/MyButton";
 
 class Discount extends Component {
   state = {
     discountStart: 0,
-    discountEnd: 30
+    discountEnd: 30,
   };
 
   percentage = () => {
@@ -39,7 +40,12 @@ class Discount extends Component {
                 rem quos dolores suscipit voluptatibus dolor eius libero!
                 Nostrum totam ea voluptas mollitia quos?
               </p>
-              <div>Button</div>
+              <MyButton
+                text="Purchase Tickets"
+                bck="#ffa800"
+                color="#ffffff"
+                link="/"
+              />
             </div>
           </Slide>
         </div>
