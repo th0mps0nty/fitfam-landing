@@ -96,15 +96,15 @@ footer .footer_copyright {
     height: 160px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    border: 2px solid red;
+    border: 2px solid #ff4800;
 }
 
 .artist_name .wrapper {
-    border: 2px solid red;
+    border: 2px solid #ff4800;
     height: 121px;
     margin: 6px;
     text-align: center;
-    color: red;
+    color: #ff4800;
     font-size: 40px;
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
